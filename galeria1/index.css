@@ -1,0 +1,111 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    height: 100vh;
+    width:100%
+    }
+    
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2; 
+        background-image: url("img/𝙘𝙝𝙞𝙤𝙣𝙤𝙥𝙝𝙞𝙡𝙚\ [𝙥𝙧𝙞𝙣𝙘𝙚\ 𝙘𝙖𝙨𝙥𝙞𝙖𝙣]\ -\ em\ ✨\ -\ Wattpad.jpg");
+        background-size: cover;
+    }
+    .div2 {
+         grid-area: 1 / 2 / 2 / 3;
+        background-image: url("img/medieval1.jpg");
+        background-size: cover;
+        }
+    
+    .div3 {
+         grid-area: 1 / 3 / 2 / 4;
+         background-image: url("img/barco.jpg");
+         background-size: cover; 
+        }
+    .div4 { 
+        grid-area: 1 / 4 / 3 / 5;
+        background-image: url("img/lupa.jpg");
+        background-size: cover; 
+    }
+    .div5 {
+         grid-area: 1 / 5 / 2 / 6;
+         background-image: url("img/rica.jpg");
+         background-size: cover;
+         }
+    .div6 {
+         grid-area: 1 / 6 / 2 / 8;
+         background-image: url("img/selo.jpg");
+         background-size: cover;
+        }
+    .div7 {
+         grid-area: 1 / 8 / 3 / 9;
+         background-image: url("img/princesa.jpg");
+         background-size: cover;
+        }
+    .div8 {
+         grid-area: 2 / 1 / 3 / 3; 
+         background-image: url("img/carta2.jpg");
+         background-size: cover;
+        }
+    .div9 {
+         grid-area: 2 / 3 / 4 / 4;
+         background-image: url("img/espada.jpg");
+         background-size: cover;
+        }
+    .div10 {
+         grid-area: 2 / 5 / 4 / 7; 
+         background-image: url("img/danca.jpg");
+         background-size: cover;
+        }
+    .div11 {
+         grid-area: 3 / 4 / 4 / 5; 
+         background-image: url("img/casal.jpg");
+         background-size: cover;
+        }
+    .div12 { 
+        grid-area: 2 / 7 / 3 / 8;
+        background-image: url("img/moças.jpg");
+        background-size: cover;
+    }
+    .div13 {
+         grid-area: 3 / 7 / 6 / 9; 
+         background-image: url("img/castelo.jpg");
+         background-size: cover;
+        }
+    .div14 { 
+        grid-area: 3 / 1 / 5 / 3; 
+        background-image: url("img/baile.jpg");
+        background-size: cover;
+    }
+    .div15 {
+         grid-area: 5 / 1 / 6 / 2; 
+         background-image: url("img/mapa.jpg");
+         background-size: cover;
+        }
+    .div16 { 
+        grid-area: 5 / 2 / 6 / 3; 
+        background-image: url("img/carruagem.jpg");
+        background-size: cover;
+    }
+    .div17 { 
+        grid-area: 4 / 3 / 6 / 5;
+        background-image: url("img/livros.jpg");
+        background-size: cover;
+    }
+    .div18 {
+         grid-area: 4 / 5 / 6 / 6; 
+         background-image: url("img/velas.jpg");
+         background-size: cover;
+        }
+    .div19 { 
+        grid-area: 4 / 6 / 5 / 7; 
+        background-image: url("img/vestidos.jpg");
+        background-size: cover;
+    }
+    .div20 {
+         grid-area: 5 / 6 / 6 / 7; 
+         background-image: url("img/comida.jpg");
+         background-size: cover;
+        }
